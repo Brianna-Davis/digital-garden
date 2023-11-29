@@ -4,6 +4,70 @@
   body{
     background-color: #fce6f3;
   }
+  h1{
+    color: #8f6850;
+    text-align: center;
+    font-family: Optima, sans-serif
+  }
+  
+  #sub-header{
+    text-align: center;
+    color: #8f6850;
+    font-family: American Typewriter, serif;
+    font-weight: 2;
+  }
+  
+  #chicago-coffee{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 25%;
+    top: 25%;
+    
+  }
+  
+  #dmv-coffee{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 25%;
+    top: 65%;
+
+  }
+  #chicago-coffee-list-container{
+    max-width: 90%;
+    color: #225aa3;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10%;
+  }
+  .chicago-coffee-list{
+    border: 1px solid black;
+		width: 100px;
+    height: 100px;
+    position: relative;
+  }
+  
+    #dmv-coffee-list-container{
+    max-width: 90%;
+    color: #225aa3;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10%;
+  }
+  .dmv-coffee-list{
+    border: 1px solid black;
+		width: 100px;
+    height: 100px;
+    position: relative;
+  }
+  
 
 </style>
 <html lang="en-US">
@@ -12,7 +76,36 @@
 		<title>Untitled</title>
 	</head>
 	<body>
-		
+    <h1>
+      The Cafe Collection
+    </h1>
+    <h3 id="sub-header">
+      A collection of my favorite cafes in Chicago and the DMV
+    </h3>
+		<div id="chicago-coffee">
+      Chicago
+    </div>
+    <!--<div id="dmv-coffee">
+      DMV
+    </div>-->
+    <div id="chicago-coffee-list-container">
+      <div class="chicago-coffee-list"></div>
+      <div class="chicago-coffee-list"></div>
+      <div class="chicago-coffee-list"></div>
+      <div class="chicago-coffee-list"></div>
+      <div class="chicago-coffee-list"></div>
+      <div class="chicago-coffee-list"></div>
+    </div>
+    <div id="dmv-coffee">DMV</div>
+    <div id="dmv-coffee-list-container">
+      <div class="dmv-coffee-list"></div>
+      <div class="dmv-coffee-list"></div>
+      <div class="dmv-coffee-list"></div>
+      <div class="dmv-coffee-list"></div>
+      <div class="dmv-coffee-list"></div>
+      <div class="dmv-coffee-list"></div>
+    </div>
+  
 	</body>
 </html>
 
