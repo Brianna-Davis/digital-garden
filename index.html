@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 
 <style>
-  body{
+  body {
     background-color: #fce6f3;
   }
-  h1{
+
+  h1 {
     color: #8f6850;
     text-align: center;
-    font-family: Optima, sans-serif
+    font-family: Optima, sans-serif;
   }
-  
-  #sub-header{
+
+  #sub-header {
     text-align: center;
     color: #8f6850;
     font-family: American Typewriter, serif;
     font-weight: 2;
   }
-  
-  #chicago-coffee{
+
+  #chicago-coffee {
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 25%;
+    left: 45%;
     top: 25%;
-    
+		color: #8f6850;
+    font-family: Optima, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
   }
-  
-  #dmv-coffee{
+
+  #dmv-coffee {
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 25%;
+    left: 47%;
     top: 65%;
-
+    color: #8f6850;
+    font-family: Optima, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
   }
-  #chicago-coffee-list-container{
+
+  #chicago-coffee-list-container {
     max-width: 90%;
     color: #225aa3;
     margin: 50px;
@@ -44,14 +52,15 @@
     position: relative;
     top: 10%;
   }
-  .chicago-coffee-list{
+
+  .chicago-coffee-list {
     border: 1px solid black;
-		width: 100px;
+    width: 100px;
     height: 100px;
     position: relative;
   }
-  
-    #dmv-coffee-list-container{
+
+  #dmv-coffee-list-container {
     max-width: 90%;
     color: #225aa3;
     margin: 50px;
@@ -61,52 +70,54 @@
     position: relative;
     top: 10%;
   }
-  .dmv-coffee-list{
+
+  .dmv-coffee-list {
     border: 1px solid black;
-		width: 100px;
+    width: 100px;
     height: 100px;
     position: relative;
   }
-  
 
+  #cafe-photo {
+    width: 100px;
+    height: 100px;
+  }
 </style>
 <html lang="en-US">
-	<head>
-		<meta charset="utf-8">
-		<title>Untitled</title>
-	</head>
-	<body>
+  <head>
+    <meta charset="utf-8">
+    <title>Untitled</title>
+  </head>
+  <body>
     <h1>
       The Cafe Collection
     </h1>
     <h3 id="sub-header">
       A collection of my favorite cafes in Chicago and the DMV
     </h3>
-		<div id="chicago-coffee">
+    <div id="chicago-coffee">
       Chicago
     </div>
     <!--<div id="dmv-coffee">
       DMV
     </div>-->
     <div id="chicago-coffee-list-container">
-      <div class="chicago-coffee-list"></div>
-      <div class="chicago-coffee-list"></div>
-      <div class="chicago-coffee-list"></div>
-      <div class="chicago-coffee-list"></div>
-      <div class="chicago-coffee-list"></div>
-      <div class="chicago-coffee-list"></div>
+      <img class="chicago-coffee-list" src="overflow-coffee-image.jpeg" alt="picture of inside of overflow coffee">
+      <img class="chicago-coffee-list" src="dollop-coffee.jpeg" alt="picture of inside of dollop coffee">
+      <img class="chicago-coffee-list" src="philz.jpeg" alt="picture of outside of philz">
+      <img class="chicago-coffee-list" src="froth.jpeg" alt="picture of inside of froth">
     </div>
+        
     <div id="dmv-coffee">DMV</div>
     <div id="dmv-coffee-list-container">
-      <div class="dmv-coffee-list"></div>
-      <div class="dmv-coffee-list"></div>
-      <div class="dmv-coffee-list"></div>
-      <div class="dmv-coffee-list"></div>
-      <div class="dmv-coffee-list"></div>
-      <div class="dmv-coffee-list"></div>
+      <img class="dmv-coffee-list" src="esp-tea-and-coffee-image.jpeg" alt="picture of the front of esp tea and coffee">
+      <img class="dmv-coffee-list" src="tatte-image.jpeg" alt="picture of inside of tatte bakery and cafe">
+      <img class="dmv-coffee-list" src="ebenezer-image.webp" alt="picture of outside of ebenezer coffee house">
+      <img class="dmv-coffee-list" src="tryst-image.jpeg" alt="picture of outside fo tryst coffee">
     </div>
-  
-	</body>
+
+
+  </body>
 </html>
 
 <!--favorite coffee shops in chi and dmv
