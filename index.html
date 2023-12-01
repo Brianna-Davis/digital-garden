@@ -50,13 +50,17 @@
     justify-content: space-between;
     position: relative;
     top: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .chicago-coffee-list {
     border: 5px solid white;
-    width: 150px;
-    height: 150px;
+    width: 210px;
+    height: 210px;
     position: relative;
+    padding: 20px;
+    margin: 15px;
   }
 
   #dmv-coffee-list-container {
@@ -64,6 +68,8 @@
     margin: 20px;
     padding: 50px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
     top: 10%;
@@ -71,14 +77,22 @@
 
   .dmv-coffee-list {
     border: 5px solid white;
-    width: 150px;
-    height: 150px;
+    width: 210px;
+    height: 210px;
     position: relative;
+    padding: 20px;
+    margin: 15px;
   }
 
   #cafe-photo {
     width: 100px;
     height: 100px;
+  }
+  @media (max-width: 700px) {
+    /* screens less than 415px wide */
+    #dmv-coffee-list-container {
+      
+    }
   }
 </style>
 <html lang="en-US">
