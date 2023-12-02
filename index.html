@@ -52,6 +52,7 @@
     top: 10%;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
   }
 
   .chicago-coffee-list {
@@ -96,6 +97,20 @@
     font-weight: 2;
 
   }
+  .overflow img:hover{
+    opacity: 0.3;
+  }
+  
+  .image-text{
+    position: relative;
+    bottom: 50%;
+    z-index: 1;
+    opacity: 0;
+  }
+  .overflow:hover .image-text{
+    opacity: 1;
+  }
+
 
   @media (max-width: 700px) {
 
@@ -123,7 +138,8 @@
     </div>-->
     <div id="chicago-coffee-list-container">
       <div class="overflow">
-      <img class="chicago-coffee-list" src="overflow-coffee-image.jpeg" alt="picture of inside of overflow coffee">
+      <img class="chicago-coffee-list" src="overflow-coffee-image.jpeg" title="Love this place!" alt="picture of inside of overflow coffee">
+        <p class="image-text">text</p>
         <div class="coffee-shop-names">Overflow Coffee<br>1449 S Michigan Ave, Chicago, IL</div>
         </div>
       <div class="dollop">
