@@ -24,7 +24,7 @@
     height: 25px;
     left: 45%;
     top: 25%;
-		color: #8f6850;
+    color: #8f6850;
     font-family: Optima, sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -88,11 +88,19 @@
     width: 100px;
     height: 100px;
   }
+
+  .coffee-shop-names {
+    text-align: center;
+    color: #8f6850;
+    font-family: American Typewriter, serif;
+    font-weight: 2;
+
+  }
+
   @media (max-width: 700px) {
+
     /* screens less than 415px wide */
-    #dmv-coffee-list-container {
-      
-    }
+    #dmv-coffee-list-container {}
   }
 </style>
 <html lang="en-US">
@@ -108,24 +116,42 @@
       A collection of my favorite cafes in Chicago and the DMV
     </h3>
     <div id="chicago-coffee">
-      Chicago
+      <!-- Chicago-->
     </div>
     <!--<div id="dmv-coffee">
       DMV
     </div>-->
     <div id="chicago-coffee-list-container">
+      <div class="overflow">
       <img class="chicago-coffee-list" src="overflow-coffee-image.jpeg" alt="picture of inside of overflow coffee">
+        <div class="coffee-shop-names">Overflow Coffee<br>1449 S Michigan Ave, Chicago, IL</div>
+        </div>
+      <div class="dollop">
       <img class="chicago-coffee-list" src="dollop-coffee.jpeg" alt="picture of inside of dollop coffee">
+        <div class="coffee-shop-names">Dollop Coffee Co.<br>1210 S Indiana Ave, Chicago, IL</div>
+        </div>
+      <div class="philz">
       <img class="chicago-coffee-list" src="philz.jpeg" alt="picture of outside of philz">
-      <img class="chicago-coffee-list" src="froth.jpeg" alt="picture of inside of froth">
+        <div class="coffee-shop-names">Philz Coffee<br>1425 E 53rd Street, Chicago, IL</div>
+        </div>
     </div>
-        
-    <div id="dmv-coffee">DMV</div>
+
+    <div id="dmv-coffee">
+      <!--DMV-->
+    </div>
     <div id="dmv-coffee-list-container">
-      <img class="dmv-coffee-list" src="esp-tea-and-coffee-image.jpeg" alt="picture of the front of esp tea and coffee">
-      <img class="dmv-coffee-list" src="tatte-image.jpeg" alt="picture of inside of tatte bakery and cafe">
-      <img class="dmv-coffee-list" src="ebenezer-image.webp" alt="picture of outside of ebenezer coffee house">
-      <img class="dmv-coffee-list" src="tryst-image.jpeg" alt="picture of outside fo tryst coffee">
+      <div class="esp">
+        <img class="dmv-coffee-list" src="esp-tea-and-coffee-image.jpeg" alt="picture of the front of esp tea and coffee">
+        <div class="coffee-shop-names">ESP Tea & Coffee<br>1012 King Street, Alexandria, VA</div>
+      </div>
+      <div class="tatte">
+        <img class="dmv-coffee-list" src="tatte-image.jpeg" alt="picture of inside of tatte bakery and cafe">
+        <div class="coffee-shop-names">Tatte Bakery and Cafe<br>1090 I Street NW, Washington, DC</div>
+      </div>
+      <div class="tryst">
+        <img class="dmv-coffee-list" src="tryst-image.jpeg" alt="picture of outside of tryst coffee">
+        <div class="coffee-shop-names">Tryst<br>2459 18th Street NW, Washington, DC</div>
+      </div>
     </div>
 
 
