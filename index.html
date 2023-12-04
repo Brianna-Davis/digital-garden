@@ -18,37 +18,13 @@
     font-weight: 2;
   }
 
-  #chicago-coffee {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 45%;
-    top: 25%;
-    color: #8f6850;
-    font-family: Optima, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  #dmv-coffee {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 47%;
-    top: 65%;
-    color: #8f6850;
-    font-family: Optima, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-  }
-
   #coffee-list-container {
     max-width: 100%;
     margin: 20px;
     padding: 10px;
     display: flex;
     position: relative;
-    top: 10%;
+    top: 5%;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -74,13 +50,14 @@
     color: #8f6850;
     font-family: American Typewriter, serif;
     font-weight: 2;
-
+		margin-bottom: 10px;
   }
   .image-icons{
     position: relative;
   }
   .image-icons:hover img{
     opacity: 0;
+    transition-duration: 0.5s;
   }
   
   .image-text{
@@ -95,26 +72,9 @@
     font-weight: bold;
     width: 70%;
   }
-  .overflow:hover .image-text{
+  .image-icons:hover .image-text{
     opacity: 1;
-  }
-  .image-text:hover .overflow-icon{
-    opacity: 0.3;
-  }
-  .dollop:hover .image-text{
-    opacity: 1;
-  }
-  .philz:hover .image-text{
-    opacity: 1;
-  }
-  .esp:hover .image-text{
-    opacity: 1;
-  }
-  .tatte:hover .image-text{
-    opacity: 1;
-  }
-  .tryst:hover .image-text{
-    opacity: 1;
+    transition-duration: 0.5s;
   }
 
   @media (max-width: 700px) {
@@ -145,7 +105,7 @@
       <div class="overflow">
       <div class="image-icons">
       <img class="coffee-list" src="overflow-coffee-image.jpeg" alt="picture of inside of overflow coffee">
-        <p class="image-text">Good amount of seating, outlets, and a great variety of drinks! Perfect place to study. Favorite drink:<br> Peppermint white<br> chocolate latte</p>
+        <p class="image-text">Studied here during finals week, they had a great selection of seasonal holiday drinks. Plus it's black owned! Favorite drink: The Overflow</p>
         </div>
         <div class="coffee-shop-names">Overflow Coffee<br>1449 S Michigan Ave, Chicago, IL</div>
         </div>
@@ -153,7 +113,7 @@
         <div class="image-icons">
       <img class="coffee-list" src="dollop-coffee.jpeg" alt="picture of inside of dollop coffee">
         <p class="image-text">
-          Open late, lots of seating, and has some good food options. Favorite drink: Matcha latte with vanilla</p>
+          One of my go tos in Chicago because its open late. Plus, they have good food options, and its easy to get to via Metra Electric. Favorite drink: Matcha Latte with Vanilla Syrup</p>
         </div>
           <div class="coffee-shop-names">Dollop Coffee Co.<br>1210 S Indiana Ave, Chicago, IL</div>
         </div>
@@ -161,7 +121,7 @@
         <div class="image-icons">
       <img class="coffee-list" src="philz.jpeg" alt="picture of outside of philz">
         <p class="image-text">
-          One of my all time favorites and so close to campus. Can definitely be crowded though. Favorite drink: Mocha Tesora</p>
+          One of my favorite spots from home so I'm glad there's a location close to campus. My mom loves this one too! Favorite drink: Mocha Tesora</p>
           </div>
           <div class="coffee-shop-names">Philz Coffee<br>1425 E 53rd Street, Chicago, IL</div>
         </div>
@@ -171,7 +131,7 @@
         <div class="image-icons">
         <img class="coffee-list" src="esp-tea-and-coffee-image.jpeg" alt="picture of the front of esp tea and coffee">
         <p class="image-text">
-          Been going here since high school. Great decor, pie, and coffee. Favorite drink: Nutella Latte</p>
+          Been going here since high school. Love the music, decor, and overall vibe. Favorite drink: Nutella Latte</p>
           </div>
           <div class="coffee-shop-names">ESP Tea &amp Coffee<br>1012 King Street, Alexandria, VA</div>
       </div>
@@ -179,7 +139,7 @@
         <div class="image-icons">
         <img class="coffee-list" src="tatte-image.jpeg" alt="picture of inside of tatte bakery and cafe">
         <p class="image-text">
-          Favorite Drink: Mocha
+          Very aesthetically pleasing decor, but it's usually very crowdeThe coffee itself is nothign spectacular, but the food is amazing! Favorite Drink: Mocha
           </p>
           </div>
           <div class="coffee-shop-names">Tatte Bakery and Cafe<br>1090 I Street NW, Washington, DC</div>
@@ -188,7 +148,7 @@
         <div class="image-icons">
         <img class="coffee-list" src="tryst-image.jpeg" alt="picture of outside of tryst coffee">
         <p class="image-text">
-          Favorite drink: Lavender Latte
+          Will always hold a special place in my heart because my best friend and I would meet here every other week after school. The vibes are great, along with the food and coffee. Favorite drink: Lavender Latte
           </p>
           </div>
           <div class="coffee-shop-names">Tryst<br>2459 18th Street NW, Washington, DC</div>
@@ -198,15 +158,3 @@
   </body>
 </html>
 
-<!--favorite coffee shops in chi and dmv
-chi - dollop coffee, ground up cafe, froth, overflow, starbucks reserve roastery, philz
-
-dmv - esp coffee and treats, misha's, tryst, ebenezer, compass, tatte
-
-6 each
-
-rating - good for studying, hours, proximity/convenience/commute, coffee, food
-
-could start with a map of us with chi and dmv highlighted, put a little coffee cup over them and when you click you go to a page of that city
-then when you click it says city as header at the top and then it has the coffee shops as shapes with their logos (or maybe a picture of the coffee shop) inside?? and maybe when you hover it greys out and shows the ratings
--->
