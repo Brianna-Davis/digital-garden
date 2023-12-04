@@ -42,41 +42,20 @@
     font-size: 20px;
   }
 
-  #chicago-coffee-list-container {
-    max-width: 90%;
+  #coffee-list-container {
+    max-width: 100%;
     margin: 20px;
-    padding: 50px;
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
     position: relative;
     top: 10%;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
-  .chicago-coffee-list {
-    border: 5px solid white;
-    width: 210px;
-    height: 210px;
-    position: relative;
-    padding: 20px;
-    margin: 15px;
-  }
-
-  #dmv-coffee-list-container {
-    max-width: 90%;
-    margin: 20px;
-    padding: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: relative;
-    top: 10%;
-  }
-
-  .dmv-coffee-list {
+  .coffee-list {
     border: 5px solid white;
     width: 210px;
     height: 210px;
@@ -97,20 +76,24 @@
     font-weight: 2;
 
   }
+  .image-icons{
+    position: relative;
+  }
   .image-icons:hover img{
     opacity: 0.3;
   }
   
   .image-text{
     position: absolute;
-    top: 10%;
-    left: 14%;
+    text-align: center;
+    top: 20%;
+    left: 15%;
     z-index: 1;
     opacity: 0;
     color: #8f6850;
     font-family: American Typewriter, serif;
     font-weight: bold;
-  
+    width: 70%;
   }
   .overflow:hover .image-text{
     opacity: 1;
@@ -121,7 +104,18 @@
   .dollop:hover .image-text{
     opacity: 1;
   }
-
+  .philz:hover .image-text{
+    opacity: 1;
+  }
+  .esp:hover .image-text{
+    opacity: 1;
+  }
+  .tatte:hover .image-text{
+    opacity: 1;
+  }
+  .tryst:hover .image-text{
+    opacity: 1;
+  }
 
   @media (max-width: 700px) {
 
@@ -147,46 +141,59 @@
     <!--<div id="dmv-coffee">
       DMV
     </div>-->
-    <div id="chicago-coffee-list-container">
+    <div id="coffee-list-container">
       <div class="overflow">
       <div class="image-icons">
-      <img class="chicago-coffee-list" src="overflow-coffee-image.jpeg" alt="picture of inside of overflow coffee">
-        <p class="image-text">Good amount of seating, <br>outlets, and a great <br>variety of drinks! Perfect <br>place to study.<br> Favorite drink:<br> Peppermint white<br> chocolate latte</p>
+      <img class="coffee-list" src="overflow-coffee-image.jpeg" alt="picture of inside of overflow coffee">
+        <p class="image-text">Good amount of seating, outlets, and a great variety of drinks! Perfect place to study. Favorite drink:<br> Peppermint white<br> chocolate latte</p>
         </div>
         <div class="coffee-shop-names">Overflow Coffee<br>1449 S Michigan Ave, Chicago, IL</div>
         </div>
       <div class="dollop">
         <div class="image-icons">
-      <img class="chicago-coffee-list" src="dollop-coffee.jpeg" alt="picture of inside of dollop coffee">
+      <img class="coffee-list" src="dollop-coffee.jpeg" alt="picture of inside of dollop coffee">
         <p class="image-text">
           Open late, lots of seating, and has some good food options. Favorite drink: Matcha latte with vanilla</p>
         </div>
           <div class="coffee-shop-names">Dollop Coffee Co.<br>1210 S Indiana Ave, Chicago, IL</div>
         </div>
       <div class="philz">
-      <img class="chicago-coffee-list" src="philz.jpeg" alt="picture of outside of philz">
-        <div class="coffee-shop-names">Philz Coffee<br>1425 E 53rd Street, Chicago, IL</div>
+        <div class="image-icons">
+      <img class="coffee-list" src="philz.jpeg" alt="picture of outside of philz">
+        <p class="image-text">
+          One of my all time favorites and so close to campus. Can definitely be crowded though. Favorite drink: Mocha Tesora</p>
+          </div>
+          <div class="coffee-shop-names">Philz Coffee<br>1425 E 53rd Street, Chicago, IL</div>
         </div>
-    </div>
 
-    <div id="dmv-coffee">
       <!--DMV-->
-    </div>
-    <div id="dmv-coffee-list-container">
       <div class="esp">
-        <img class="dmv-coffee-list" src="esp-tea-and-coffee-image.jpeg" alt="picture of the front of esp tea and coffee">
-        <div class="coffee-shop-names">ESP Tea &amp Coffee<br>1012 King Street, Alexandria, VA</div>
+        <div class="image-icons">
+        <img class="coffee-list" src="esp-tea-and-coffee-image.jpeg" alt="picture of the front of esp tea and coffee">
+        <p class="image-text">
+          Been going here since high school. Great decor, pie, and coffee. Favorite drink: Nutella Latte</p>
+          </div>
+          <div class="coffee-shop-names">ESP Tea &amp Coffee<br>1012 King Street, Alexandria, VA</div>
       </div>
       <div class="tatte">
-        <img class="dmv-coffee-list" src="tatte-image.jpeg" alt="picture of inside of tatte bakery and cafe">
-        <div class="coffee-shop-names">Tatte Bakery and Cafe<br>1090 I Street NW, Washington, DC</div>
+        <div class="image-icons">
+        <img class="coffee-list" src="tatte-image.jpeg" alt="picture of inside of tatte bakery and cafe">
+        <p class="image-text">
+          Favorite Drink: Mocha
+          </p>
+          </div>
+          <div class="coffee-shop-names">Tatte Bakery and Cafe<br>1090 I Street NW, Washington, DC</div>
       </div>
       <div class="tryst">
-        <img class="dmv-coffee-list" src="tryst-image.jpeg" alt="picture of outside of tryst coffee">
-        <div class="coffee-shop-names">Tryst<br>2459 18th Street NW, Washington, DC</div>
+        <div class="image-icons">
+        <img class="coffee-list" src="tryst-image.jpeg" alt="picture of outside of tryst coffee">
+        <p class="image-text">
+          Favorite drink: Lavender Latte
+          </p>
+          </div>
+          <div class="coffee-shop-names">Tryst<br>2459 18th Street NW, Washington, DC</div>
       </div>
-    </div>
-
+	</div>
 
   </body>
 </html>
