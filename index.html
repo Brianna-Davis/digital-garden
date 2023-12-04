@@ -97,7 +97,7 @@
     font-weight: 2;
 
   }
-  .overflow img:hover{
+  .overflow-icon:hover{
     opacity: 0.3;
   }
   
@@ -106,10 +106,18 @@
     bottom: 50%;
     z-index: 1;
     opacity: 0;
+    color: #8f6850;
+    font-family: American Typewriter, serif;
+    font-weight: bold;
+  
   }
   .overflow:hover .image-text{
     opacity: 1;
   }
+  .image-text:hover .overflow-icon{
+    opacity: 0.3
+  }
+
 
 
   @media (max-width: 700px) {
@@ -138,8 +146,10 @@
     </div>-->
     <div id="chicago-coffee-list-container">
       <div class="overflow">
-      <img class="chicago-coffee-list" src="overflow-coffee-image.jpeg" title="Love this place!" alt="picture of inside of overflow coffee">
-        <p class="image-text">text</p>
+      <div class="overflow-icon">
+      <img class="chicago-coffee-list" src="overflow-coffee-image.jpeg" alt="picture of inside of overflow coffee">
+        </div>
+        <p class="image-text">Good amount of seating, <br>outlets, and a great <br>variety of drinks! Perfect <br>place to study.<br> Favorite drink:<br> Peppermint white<br> chocolate latte</p>
         <div class="coffee-shop-names">Overflow Coffee<br>1449 S Michigan Ave, Chicago, IL</div>
         </div>
       <div class="dollop">
@@ -158,7 +168,7 @@
     <div id="dmv-coffee-list-container">
       <div class="esp">
         <img class="dmv-coffee-list" src="esp-tea-and-coffee-image.jpeg" alt="picture of the front of esp tea and coffee">
-        <div class="coffee-shop-names">ESP Tea & Coffee<br>1012 King Street, Alexandria, VA</div>
+        <div class="coffee-shop-names">ESP Tea &amp Coffee<br>1012 King Street, Alexandria, VA</div>
       </div>
       <div class="tatte">
         <img class="dmv-coffee-list" src="tatte-image.jpeg" alt="picture of inside of tatte bakery and cafe">
