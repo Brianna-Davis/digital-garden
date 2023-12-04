@@ -97,13 +97,14 @@
     font-weight: 2;
 
   }
-  .overflow-icon:hover{
+  .image-icons:hover img{
     opacity: 0.3;
   }
   
   .image-text{
-    position: relative;
-    bottom: 50%;
+    position: absolute;
+    top: 10%;
+    left: 14%;
     z-index: 1;
     opacity: 0;
     color: #8f6850;
@@ -117,7 +118,9 @@
   .image-text:hover .overflow-icon{
     opacity: 0.3
   }
-
+  .dollop:hover .image-text{
+    opacity: 1;
+  }
 
 
   @media (max-width: 700px) {
@@ -146,15 +149,19 @@
     </div>-->
     <div id="chicago-coffee-list-container">
       <div class="overflow">
-      <div class="overflow-icon">
+      <div class="image-icons">
       <img class="chicago-coffee-list" src="overflow-coffee-image.jpeg" alt="picture of inside of overflow coffee">
-        </div>
         <p class="image-text">Good amount of seating, <br>outlets, and a great <br>variety of drinks! Perfect <br>place to study.<br> Favorite drink:<br> Peppermint white<br> chocolate latte</p>
+        </div>
         <div class="coffee-shop-names">Overflow Coffee<br>1449 S Michigan Ave, Chicago, IL</div>
         </div>
       <div class="dollop">
+        <div class="image-icons">
       <img class="chicago-coffee-list" src="dollop-coffee.jpeg" alt="picture of inside of dollop coffee">
-        <div class="coffee-shop-names">Dollop Coffee Co.<br>1210 S Indiana Ave, Chicago, IL</div>
+        <p class="image-text">
+          Open late, lots of seating, and has some good food options. Favorite drink: Matcha latte with vanilla</p>
+        </div>
+          <div class="coffee-shop-names">Dollop Coffee Co.<br>1210 S Indiana Ave, Chicago, IL</div>
         </div>
       <div class="philz">
       <img class="chicago-coffee-list" src="philz.jpeg" alt="picture of outside of philz">
